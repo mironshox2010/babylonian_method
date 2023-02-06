@@ -8,8 +8,9 @@ def main(S, d):
     Returns:
         float: result
     '''
-    a =(( S - d**2)/d*2)
-    b =(a + d)
-    x =((b - a**2)/b*2)
+    a = (S - d**2)/(2 * d)
+    b = a + d
+    x = (b -(a ** 2)/( 2 * b))
     return x
-print(main(16,4))
+print(main(26,5))
+    
